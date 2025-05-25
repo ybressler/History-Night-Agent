@@ -394,6 +394,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "pydantic" },
     { name = "pydantic-ai" },
+    { name = "python-dotenv" },
 ]
 
 [package.dev-dependencies]
@@ -407,6 +408,7 @@ dev = [
 requires-dist = [
     { name = "pydantic", specifier = ">=2.11.5" },
     { name = "pydantic-ai", specifier = ">=0.2.8" },
+    { name = "python-dotenv", specifier = ">=1.1.0" },
 ]
 
 [package.metadata.requires-dev]
