@@ -11,5 +11,8 @@ The output of the agent will be material that fed into [Sli.dev](https://sli.dev
 
 Prerequisites:
 * [uv](https://docs.astral.sh/uv/)
+* [pre-commit](https://formulae.brew.sh/formula/pre-commit)
 
+Execute:
 * `uv sync` should be enough!
+* `pre-commit install`
