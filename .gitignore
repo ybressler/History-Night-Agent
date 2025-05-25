@@ -36,3 +36,6 @@ env/
 # Coverage reports
 pytest-coverage.txt
 pytest.xml
+
+# Secrets
+.env
